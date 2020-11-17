@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Title is what shows up on tab bar -->
+  <title>Jennie's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <!-- Bootstrap, icons, and font imports -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+
+</head>
+
+<body>
+
+  <!-- Side navigation bar -->
+  <div class="sidenav">
+    <!-- Create class nav-list to hold elements of navigation bar -->
+    <ul class="nav-list">
+      <!-- For each element in navigation bar, create a nav-item class that contains a nav-link class-->
+      <li class="nav-item">
+        <!-- Each nav-link class will contain an href to its respective html section-->
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#aboutme">About Me</a>
+      </li>
+    </ul>
+    
+  </div>
+
+  <!-- A container for all of the content of the site (anything taking up the page aside from the nav) -->
+  <div class="page-container">
+
+     <!--Home page section -->
+    <section id="home" class="main-section home-background">
+
+      <!-- Contains the contact information in a header -->
+      <div class="header-contact-info">
+
+        <!-- Keeps the icon and text together as one unit; The code below creates an icon associated with an email address -->
+        <span>
+          <span class="material-icons">
+            email
+          </span>
+         quachjh@uci.edu
+        </span>
+
+        <span>
+          <span class="material-icons">
+            phone
+          </span>
+         408-680-7670
+        </span>
+
+        <span>
+          <span class="material-icons">
+            location on
+          </span>
+         San Jose, CA
+        </span>
+
+      </div>
+
+
+      <!-- Container is a Bootstrap class that will contain and auto-resize our content with the screen size -->
+      <div class="container">
+        
+        <!-- Home section class will contain name, social media links, and github which are organized into classes below -->
+        <div class="home-section">
+          <div class="heading-font">
+            Jennifer Quach
+          </div>
+
+          <h2 style="color: white;">Software Engineering Student</h2>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/jennifer-ha-quach">
+              <em class="social-link-icons icon-linkedin"></em>
+            </a>
+
+            <a href="https://github.com/quachjennifer">
+              <em class="social-link-icons icon-github"></em>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--About me section -->
+    <section id="aboutme" class="main-section section-background">
+      <div class="container">
+        <div class="page-section">
+          <h2>About Me</h2>
+          <img src="https://pbs.twimg.com/media/Csu84zrWYAA2ItU.png" alt="Peter Anteater" style="float:right;width:250px;height:250px;">
+          <p>First paragraph goes here!</p>
+
+          <p>This is another paragraph.</p>
+          <p></p>
+        </div>
+      </div>
+    </section>
+
+    <!--Feel free to add more sections for different pages below! Some examples can be education, projects, experience, etc -->
+
+    
+
+  </div>
+
+</body>
+
+<!-- This is where scripts go, we add the bootstrap library JS imports here -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
